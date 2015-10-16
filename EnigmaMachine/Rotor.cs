@@ -78,7 +78,14 @@ namespace EnigmaMachine
 			get { return this.iCipher; }
 			private set { this.iCipher = value; }
 		}
-		
+		/// <summary>
+        /// Propiedad PosicionActual, Solo Lectura, Permite conocer la posicion actual del anillo del rotor
+        /// </summary>
+        public char PosicionActual
+        {
+            get { return Anillo[0]; }
+        }
+
 		/// <summary>
 		/// Configuro el anillo en una posicion inicial
 		/// </summary>

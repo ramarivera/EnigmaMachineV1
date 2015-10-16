@@ -113,6 +113,7 @@ namespace EnigmaMachine
 			return lCadena;
 		}
 
+
 		/// <summary>
 		/// Prepara una cadena para ser Encriptada.
 		/// Reemplaza Espacios, ajusta en bloques, reemplaza numeros
@@ -202,5 +203,10 @@ namespace EnigmaMachine
             }
 			return lResult;
 		}
+
+        public static bool ValidarConfiguracionTablero (string pConfiguracion)
+        {
+            return TableroConexiones.ConfiguracionValida(pConfiguracion);
+        }
 	}
 }

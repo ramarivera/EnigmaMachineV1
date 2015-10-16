@@ -115,6 +115,19 @@ namespace EnigmaMachine
 			}
 		}
 
+        public char[] ConfiguracionActual
+        {
+            get
+            {
+                char[] lResult = new char[CantidadRotores];
+                int i = 0;
+                foreach (Rotor lRotor in ListaRotores)
+                {
+                    lResult[i++] = lRotor.PosicionActual;
+                }
+                return lResult;
+            }
+        }
 		/// <summary>
 		/// Realizo el cifrado de una letra a lo largo de la cadena de rotores
 		/// </summary>
