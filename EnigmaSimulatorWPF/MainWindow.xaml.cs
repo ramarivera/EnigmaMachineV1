@@ -24,7 +24,7 @@ namespace EnigmaSimulator.WPF
         {
             InitializeComponent();
             this.DataContext = this;
-            System.Diagnostics.Debugger.Break();
+          //  System.Diagnostics.Debugger.Break();
         }
 
         private void btnUpdateSource_Click(object sender, RoutedEventArgs e)
