@@ -38,7 +38,7 @@ namespace EnigmaMachineTest
 			string lConfTablero = "ABGHRTYUPC";
 			string lCadena = "Ramiro25 Rivera!";
 			string lResultado;
-			string lResultadoEsperado = lCadena.ToUpper();
+			string lResultadoEsperado = lCadena;
 
 			EnigmaEngine lEnigma = new EnigmaEngine();
 			lEnigma.Configurar(lConfRotores, lConfAnillos, lConfTablero);

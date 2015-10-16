@@ -34,5 +34,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-// Permito que los miembros internal puedan ser testeados
-[assembly: InternalsVisibleTo("EnigmaMachineTest")]
+[assembly: InternalsVisibleTo("EnigmaMachineTest")]             // Permito que los miembros internal puedan ser testeados
